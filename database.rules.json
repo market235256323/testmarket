@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "messages": {
+      "$chatId": {
+        ".read": true,
+        ".write": "auth != null"
+      }
+    },
+    "adminRequests": {
+      ".read": true,
+      ".write": "auth != null"
+    }
+  }
+}
